@@ -1,22 +1,96 @@
 aid: conrizon
 name: conrizon
-description: conrizon is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  conrizon AG is a German holding company, founded in 2020 and headquartered in
+  Essen, that unites four of Europe's leading Enterprise Content Management (ECM)
+  brands - easy software, PROXESS, HABEL, and Portal Systems (Shareflex),
+  alongside the friendWorks professional-services unit - under one roof. The
+  group provides legally compliant, audit-proof digital archiving (GDPR, GoBD,
+  eIDAS), document management (DMS), invoice and procure-to-pay (P2P) processing,
+  contract management, and HR/HCM software with automated workflows, plus AI
+  services and connectors for SAP and Microsoft 365 / SharePoint. Solutions are
+  offered cloud-native, in a private cloud, on-premises, or hybrid, and are
+  relied on by more than 8,700 companies and organizations worldwide. conrizon is
+  a portfolio company of Battery Ventures. It publishes a corporate marketing
+  site but no public developer API or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/conrizon/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://conrizon.com/wp-content/uploads/sites/2/AdobeStock_571638853-2.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-founded: '2020'
+x-headquarters: Essen, Germany
+x-legal-entity: conrizon AG
+x-brands:
+- easy software
+- PROXESS
+- HABEL
+- Portal Systems (Shareflex)
+- friendWorks
+x-leadership:
+- FN: Andreas Zipser
+  role: CEO
+- FN: Ulrich Edelmann
+  role: CFO
+- FN: Volker Grümmer
+  role: CCO
+x-no-public-api: true
+x-no-public-api-reason: >-
+  Corporate ECM software vendor; ships product APIs privately with its on-prem /
+  cloud products (easy, PROXESS, HABEL, Shareflex) but publishes no public
+  developer portal, OpenAPI, or self-serve API surface. Only the WordPress REST
+  backend of the marketing site is reachable at /wp-json.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Enterprise Content Management
+- ECM
+- Document Management
+- Archiving
+- Invoice Processing
+- Contract Management
+- Human Resources
+- SAP Integration
+- Microsoft 365
+- Germany
+- B2B Software
 apis: []
+common:
+- type: DomainSecurity
+  url: security/conrizon-domain-security.yml
+- type: Website
+  url: https://conrizon.com/en/
+- type: Blog
+  url: https://conrizon.com/en/news/
+- type: PrivacyPolicy
+  url: https://conrizon.com/en/privacy-policy/
+- type: TermsOfService
+  url: https://conrizon.easy-software.com/de/contracts/agb/
+- type: Support
+  url: https://conrizon.com/en/contact/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
