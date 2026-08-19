@@ -54,7 +54,7 @@ x-no-public-api-reason: >-
   cloud products (easy, PROXESS, HABEL, Shareflex) but publishes no public
   developer portal, OpenAPI, or self-serve API surface. Only the WordPress REST
   backend of the marketing site is reachable at /wp-json.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
